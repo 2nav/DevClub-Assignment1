@@ -40,5 +40,5 @@ Ask any doubts on our [Discord Server](https://discord.gg/Hedc9gw3Ar) in `#html-
 
 ##My Comments
 - Design is inspired by the given example.
-- Works fine on devices with 1080p width, I think that it wont work as intended on other widhts.
--
+- Works fine on devices with 1080p width, I think that it wont work as intended on other widths.
+
