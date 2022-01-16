@@ -3,7 +3,7 @@ html{
     position: relative;
     width: 1520px;
     height: 1024px;
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 .Rec1{
     position: absolute;
