@@ -38,7 +38,7 @@ Ask any doubts on our [Discord Server](https://discord.gg/Hedc9gw3Ar) in `#html-
 - GitHub Pages [Documentation](https://docs.github.com/en/pages)
 - YouTube Player Embed API [Documentation](https://developers.google.com/youtube/iframe_api_reference)
 
-##My Comments
+## My Comments
 - Design is inspired by the given example.
 - Works fine on devices with 1080p width, I think that it wont work as intended on other widths.
 
