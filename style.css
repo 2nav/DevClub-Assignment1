@@ -1,8 +1,9 @@
 html{
     background: #7ed1f1;
     position: relative;
-width: 1520px;
-height: 1024px;
+    width: 1520px;
+    height: 1024px;
+    scroll-behaviour: smooth;
 }
 .Rec1{
     position: absolute;
