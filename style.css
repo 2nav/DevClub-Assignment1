@@ -1,20 +1,29 @@
 html{
     background: #7ed1f1;
-    position: relative;
-    width: 1520px;
+    position: absolute;
+    width: 1528px;
     height: 1024px;
+    overflow-x: hidden;
     scroll-behavior: smooth;
+}
+.tlink{
+    background: linear-gradient(to right, rgb(68, 27, 165), rgb(51.5,118.5,194));    
+    height : 50px;
+    width: 1524px;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    opacity: 0.8;
 }
 .Rec1{
     position: absolute;
-    width: 1520px;
+    width: 1528px;
     height: 1024px;
     left: 0px;
     top: 0px;
-    /* background-position: left top; */
     background-image: linear-gradient(to bottom right, rgb(68, 27, 165), rgb(35, 210, 223));
-    /* background: #EF5350; */
-    border: 1px solid #000000;
     box-sizing: border-box;
     z-index: -1;
 }
@@ -29,9 +38,8 @@ a:hover{
 
 
 #a1, #a2, #a3, #a4, #a5{
-    position: relative;
-    
-    top : 48px;
+    position: relative;    
+    top : 10px;
     left : 48px;
     padding : 10px;
     margin: 2px;
@@ -40,8 +48,7 @@ a:hover{
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    z-index: 0;
-    
+    z-index: 0;    
 }
 
 #i1{
@@ -50,8 +57,7 @@ a:hover{
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     color : #313131;
-    width: 1000px;
-    
+    width: 1000px;    
     padding: 50px;
     margin: 2px;
 }
@@ -61,8 +67,7 @@ a:hover{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 96px;
     color : #fff;
-    width: 1000px;
-    
+    width: 1000px;    
     padding: 50px;
     margin: 2px;
 }
@@ -76,18 +81,17 @@ a:hover{
 }
 #Tips{
     position: absolute;
-    top:1100px;
-    width: 1520px;
+    top:1050px;
+    width: 1528px;    
 }
 #thead{
-    position :absolute;
-    top : 0px;
+    position :relative;
+    top : 50px;
     left : 710px; 
     color : rgb(68, 27, 175);
     font-family : Roboto;
     font-weight: 600;
-    font-size: 60px;
-    
+    font-size: 60px;    
     padding: 1px;
     margin: 2px;
 }
@@ -105,7 +109,7 @@ a:hover{
     background-color: #FFFFFF;
 }
 #tip1{
-    top:150px;
+    top:200px;
     text-align: right;
     line-height: 100px;
 }
@@ -113,9 +117,8 @@ a:hover{
     position: absolute;
     height: 220px;
     width: 220px;
-    top: 165px;
-    left: 230px;
-    
+    top: 215px;
+    left: 230px;    
 }
 #tip2{
     top:500px;
@@ -127,36 +130,32 @@ a:hover{
     height: 220px;
     width: 220px;
     top: 515px;
-    right: 230px;
-    
+    right: 230px;    
 }
 .Rec{
     position: absolute;
-    width: 1520px;
+    width: 1528px;
     height: 1024px;
     left: 0px;
     top: 2000px;
-    /* background-position: left top; */
-    /* background-image: linear-gradient(to bottom right, rgb(68, 27, 165), rgb(35, 210, 223)); */
     background: rgb(35, 210, 223);
-    /* background: black; */
-    border: 1px solid #000000;
+    border: 1px solid rgb(68, 27, 165);
     box-sizing: border-box;
     z-index: -1;
 }
 #Symptoms{
     position :absolute;
-    top : 2070px;
+    top : 2020px;    
+    width: 1528px;
 }
 #shead{
     position :absolute;
-    top : 0px;
-    left : 612.5px; 
+    top : 50px;
+    left : 617.5px; 
     color : rgb(68, 27, 175);
     font-family : Roboto;
     font-weight: 600;
-    font-size: 60px;
-    
+    font-size: 60px;    
     padding: 1px;
     margin: 2px;
 }
@@ -171,7 +170,7 @@ table , th, td{
 table{
     position: absolute;
     top: 2250px;
-    left : 152px;
+    left : 152.8px;
     width: 80%;
     height: 60%;
 }
@@ -180,12 +179,10 @@ th, td{
 }
 .Rec3{
     position: absolute;
-    width: 1520px;
-    height: 900px;
+    width: 1528px;
+    height: 750px;
     left: 0px;
-    top: 3040px;
-    /* background-position: left top; */
-    /* background-image: linear-gradient(to bottom right, rgb(68, 27, 165), rgb(35, 210, 223)); */
+    top: 3190px;
     background: #fff;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -193,18 +190,18 @@ th, td{
 }
 #faqs{
     position: absolute;
-    top: 3100px;
+    top: 3050px;
     width: 1520px;
+    
 }
 #fhead{
     position :absolute;
-    top : 0px;
-    left : 682.4px; 
+    top : 50px;
+    left : 687.4px; 
     color : rgb(68, 27, 175);
     font-family : Roboto;
     font-weight: 600;
-    font-size: 60px;
-    
+    font-size: 60px;    
     padding: 1px;
     margin: 2px;
 }
@@ -228,57 +225,54 @@ th, td{
     padding: 12px;
 }
 #q1{ 
-    top: 100px;
+    top: 150px;
     height: 200px;
 }
 #an1{
-    top: 200px;
+    top: 250px;
     
 }
 #q2{
-    top: 340px;
+    top: 390px;
     height: 180px;
 }
 #an2{
-    top:440px;
+    top:490px;
 }
 #q3{
-    top:560px;
+    top:610px;
     height: 160px;
 }
 #an3{
-    top: 660px;
+    top: 710px;
 }
 #yt{
     position: absolute;
-    top: 4000px;
+    top: 3950px;
     width: 1520px;
 }
 #yhead{
     position :absolute;
-    top : 0px;
-    left : 639.5px; 
+    top : 50px;
+    left : 640.5px; 
     color : rgb(68, 27, 175);
     font-family : Roboto;
     font-weight: 600;
-    font-size: 60px;
-    
+    font-size: 60px;    
     padding: 1px;
     margin: 2px;
 }
 #vid{
     position: absolute;
-    top : 200px;
+    top : 250px;
     left: 480px;
 }
 .Rec4{
     position: absolute;
-    width: 1520px;
+    width: 1528px;
     height: 120px;
     left: 0px;
     top: 4715px;
-    /* background-position: left top; */
-    /* background-image: linear-gradient(to bottom right, rgb(68, 27, 165), rgb(35, 210, 223)); */
     background: #fff;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -287,7 +281,7 @@ th, td{
 #foot{
     position: absolute;
     top:4715px;
-    width: 1520px;
+    width: 1528px;
     height: 120px;
 
 }
@@ -300,8 +294,7 @@ th, td{
     font-size: 24px;
     width: 250px;
     height: 100px;
-    line-height: 100px;;
-    
+    line-height: 100px;    
     padding: 10px;
     margin: 2px;
 }
@@ -323,8 +316,7 @@ th, td{
     font-size: 24px;
     width: 250px;
     height: 100px;
-    line-height: 100px;;
-    
+    line-height: 100px;    
     padding: 10px;
     margin: 2px;
 }
