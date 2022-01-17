@@ -23,7 +23,7 @@ html{
     top: 0px;
     /* background-position: left top; */
     background-image: linear-gradient(to bottom right, rgb(68, 27, 165), rgb(35, 210, 223));
-    margin : 1px 1% 0% 1px;
+    margin : 1px 0px 0px 1px;
     /* background: #EF5350; */
     border: 1px solid #000000;
     box-sizing: border-box;
